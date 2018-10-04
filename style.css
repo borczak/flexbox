@@ -1,0 +1,50 @@
+body{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 auto;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    flex-basis: 50vh;
+}
+
+.header {
+    background-color: orangered;
+}
+
+.header p,
+.footer p {
+    padding: 10px;
+}
+
+.aside-left {
+    background-color: green;
+    flex-basis: 15%;
+    }
+
+.article {
+    background-color: aquamarine;
+     flex-basis: 70%;
+}
+
+.aside-right {
+    background-color: pink;
+    flex-basis: 15%;
+   }
+
+.footer {
+    background-color: mediumpurple;
+}
